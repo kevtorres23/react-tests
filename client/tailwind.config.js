@@ -8,7 +8,11 @@ module.exports = {
     flowbite.content(),
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        spartan: ["League Spartan", "sans-serif"],
+      }
+    },
   },
   plugins: [
     flowbite.plugin(),
